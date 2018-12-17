@@ -1,0 +1,2 @@
+docker run --rm -it -v $(pwd):/data -p 8080:80 klokantech/tileserver-gl --mbtiles gymkhana_V2.mbtiles
+docker run -v /opt/mapproxy:/mapproxy -p 8181:8080 yagajs/mapproxy mapproxy http
